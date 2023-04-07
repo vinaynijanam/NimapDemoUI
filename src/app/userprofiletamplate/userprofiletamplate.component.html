@@ -1,0 +1,39 @@
+<div class="home">
+  <div class="nav">
+     <div class="main">
+         <ul>
+            <li><a href="#about">CANTACT US</a></li>
+            <li><a href="#about">EMPLOYERS</a></li>
+            <li><a href="#contact">CLINTS</a></li>
+            <li><a href="#contact">JOBS</a></li>
+            <li><a href="#news">ABOUT US</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li class="heading" style="color:white">DEMO APP</li>
+         </ul>
+       </div>
+  </div>
+  <div class="div2">
+   
+        <div class="">
+            <!-- <div class="profile"> -->
+            <h2>Profile</h2>
+            <br>
+            <img src="{{userobj.image}}" alt="" style="width:200px;height:200px;">
+            <!-- <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;" -->
+            <br>
+            <button class="btn btn-danger mt-2"  (click)="Edit(userobj.id)">Edit</button>
+            <button class="btn btn-danger ms-2 mt-2">Edit</button>
+        <div class="textpassage"> 
+                <p>I'm {{userobj.firstname}} {{userobj.lastname}} and Im above {{userobj.age}} years and <br>
+            you can send your email to <br><span>{{userobj.email}}</span>I live in the state of <br>
+            {{userobj.state}}.I like to pay TAGS and reading <br> books. And please send me newsleters.please <br>
+            reach out to me on my phone number {{userobj.mobileno}}.</p>
+            <button class="btn btn-success mt-2">IAgree</button>
+        </div>
+    </div>
+  </div>
+    <div class="div3">
+        <h3>Subscribe to our Job Seeker Mailing List</h3>
+        <input type="text" name="" id="" placeholder="Enter Your Email Address" >
+    </div>
+</div>

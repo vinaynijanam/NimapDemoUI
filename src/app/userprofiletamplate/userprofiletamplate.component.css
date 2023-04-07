@@ -1,0 +1,110 @@
+.home{  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 100%;
+}
+.main{
+    height: 300px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.heading{
+    background-color: #2b82fd;
+    color: black;
+    padding: 20px;
+    float :left;
+    margin-top: 20px;
+    margin-left: 60px;
+    }
+
+    li {
+        float: right;
+    }
+    
+    li a {
+        margin-top: 20px;
+        display: block;
+        padding: 20px;
+        text-decoration:none;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    li a:hover {
+     border-top: 3px solid rgb(0, 204, 255);
+    }
+    
+
+    .nav{
+        background-color:rgb(71, 177, 242);
+        width: 100%;
+        height: 100px;
+        
+    }
+
+    .textpassage{
+        margin-left: 280px;
+        margin-top: -260px;
+    }
+
+    .profile h2{
+        padding-top: 90px;
+        margin-left:100px ;
+    }
+
+    .profile image{
+        padding-top: 20px;
+        border: 10px solid black;
+    }
+
+
+    .div3{
+        background-color: black;
+        height: 300px;
+        color: white;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border-top: 7px solid #0daaff;
+        border-bottom: 7px solid #0daaff;
+        box-sizing: border-box;
+        margin-top: 600px;
+    
+    }
+    
+    .div3 h3{
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .div3 input[type=text] {
+        width: 300px;
+        padding: 12px 10px;
+        margin-top: -400px;
+        border: 2px solid #0daaff;
+        background-color: black;
+
+      }
+      .div3 input[type=text]::placeholder{
+        color: white;
+      }
+    .div2{
+        height: 300px;
+        width: 100% ;
+        padding-top: 100px;
+        padding-left: 300px;
+    }
+    button{
+        width: 95px;
+    }
